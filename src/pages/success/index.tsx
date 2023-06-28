@@ -16,7 +16,7 @@ const Success = () => {
   });
   const router = useRouter();
   useEffect(() => {
-    if (router.query.cellphone === undefined) {
+    if (router.query.cellPhone === undefined) {
       router.push("/");
     }
     setData({
